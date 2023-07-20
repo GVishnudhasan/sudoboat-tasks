@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-box {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background-color: rgb(139, 183, 241);
+}
+
+.center-box div {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+}
+
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+}
+
+.top-left {
+  top: calc(50% - 160px);
+  left: calc(50% - 140px);
+  background-color: rgb(222, 163, 231);
+}
+
+.top-right {
+    top: calc(50% - 160px);
+    left: calc(50% - -30px);
+  background-color: rgb(246, 203, 166);
+}
+
+.bottom-left {
+  bottom: calc(50% - 160px);
+  left: calc(50% - 140px);
+  background-color: rgb(178, 235, 153);
+}
+
+.bottom-right {
+  bottom: calc(50% - 160px);
+  right: calc(50% - 150px);
+  background-color: rgb(232, 120, 120);
+}

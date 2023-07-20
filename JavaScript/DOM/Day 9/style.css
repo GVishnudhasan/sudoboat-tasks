@@ -1,0 +1,32 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: 5px solid #ccc;
+  padding: 20px;
+}
+
+#signup,
+#login {
+  margin-right: 20px;
+  text-align: center;
+  /* display: none; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+button {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+}
